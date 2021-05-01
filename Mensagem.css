@@ -1,0 +1,279 @@
+/*comportamento normal Descktop */
+body{
+    margin:0px;
+    background: #f0f0f5;
+    align-items: center;
+}
+.cabecalho1 h1{
+    background-color: #063146;
+    margin: 0px;
+    padding: 0px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 0px;
+    color: white;
+    margin-top: 0px;
+  
+}
+.content{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.contato{
+    width: 100%;
+    max-width: 500px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.field{
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px;
+    border-radius: 5px;
+    width: 600px;
+    margin-top: 100px;
+    
+}
+.field1{
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px;
+    border-radius: 5px;
+    width: 600px;
+}
+textarea{
+    height: 150px;
+    margin-bottom: 5px;
+    border: 1px;
+    border-radius: 5px;
+    width: 600px;
+}
+.imagem{
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px;
+    border-radius: 5px;
+    width: 10px;
+    margin-top: 0px;
+}
+.botao{
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px;
+    border-radius: 5px;
+    width: 10px;
+    margin-top: 0px;
+}
+/* Breakpointas para resoluções especificas (smartphones, tablets, dispositivos pequenos */
+
+/* Breakpoint: 600 */
+@media screen and (max-width:600px){
+    /* aqui dentro vai vim os atributos que serao alterados nessa resolcao!*/
+    .cabecalho1 h1{
+        background-color: #063146;
+        margin: 0px;
+        padding: 10px;
+        height: 40px;
+    }
+    .content{
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+    .contato{
+        width: 100%;
+        max-width: 500px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .field{
+        padding: center;
+        margin-bottom: 5px;
+        border: 1px;
+        border-radius: 5px;
+        width: 95%;
+        margin-top: 100px;
+        margin-left: 9px;
+    }
+    .field1{
+        padding: 10px;
+        margin-bottom: 5px;
+        border: 1px;
+        border-radius: 5px;
+        width: 95%;
+        margin-left: 9px;
+    }
+    textarea{
+        height: 150px;
+        margin-bottom: 5px;
+        border: 1px;
+        border-radius: 5px;
+        width: 95%;
+        margin-left: 9px;
+    }
+    .imagem{
+        padding: 5px;
+        margin-bottom: 5px;
+        border: 1px;
+        border-radius: 5px;
+        width: 10px;
+        margin-top: 0px;
+    }
+    .botao{
+        padding: 5px;
+        margin-bottom: 5px;
+        border: 1px;
+        border-radius: 5px;
+        width: 10px;
+        margin-top: 0px;
+    }
+
+    
+}   
+/* Breakpoint: 1024 */
+@media screen and (min-width:601px)and (max-width:1024px){
+    /* aqui dentro vai vim os atributos que serao alterados nessa resolcao!*/
+
+    .cabecalho1 h1{
+        background-color: #063146;
+        margin: 0px;
+        padding: 10px;
+        height: 40px;
+    }
+    .content{
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+    .contato{
+        width: 100%;
+        max-width: 500px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .field{
+        padding: center;
+        margin-bottom: 5px;
+        border: 1px;
+        border-radius: 5px;
+        width: 95%;
+        margin-top: 100px;
+        margin-left: 9px;
+    }
+    .field1{
+        padding: 10px;
+        margin-bottom: 5px;
+        border: 1px;
+        border-radius: 5px;
+        width: 95%;
+        margin-left: 9px;
+    }
+    textarea{
+        height: 150px;
+        margin-bottom: 5px;
+        border: 1px;
+        border-radius: 5px;
+        width: 95%;
+        margin-left: 9px;
+    }
+    .imagem{
+        padding: 5px;
+        margin-bottom: 5px;
+        border: 1px;
+        border-radius: 5px;
+        width: 10px;
+        margin-top: 0px;
+    }
+    .botao{
+        padding: 5px;
+        margin-bottom: 5px;
+        border: 1px;
+        border-radius: 5px;
+        width: 10px;
+        margin-top: 0px;
+        
+    }
+
+
+
+
+}
+/* Breakpoint: 1200 */
+@media screen and (min-width:1025px)and (max-width:1200px){
+    /* aqui dentro vai vim os atributos que serao alterados nessa resolcao!*/
+    .cabecalho1 h1{
+        background-color: #063146;
+        margin: 0px;
+        padding: 10px;
+        height: 40px;
+    }
+    .content{
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+    .contato{
+        width: 100%;
+        max-width: 500px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .field{
+        padding: center;
+        margin-bottom: 5px;
+        border: 1px;
+        border-radius: 5px;
+        width: 95%;
+        margin-top: 100px;
+        margin-left: 9px;
+    }
+    .field1{
+        padding: 10px;
+        margin-bottom: 5px;
+        border: 1px;
+        border-radius: 5px;
+        width: 95%;
+        margin-left: 9px;
+    }
+    textarea{
+        height: 150px;
+        margin-bottom: 5px;
+        border: 1px;
+        border-radius: 5px;
+        width: 95%;
+        margin-left: 9px;
+    }
+    .imagem{
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px;
+    border-radius: 5px;
+    width: 10px;
+    margin-top: 0px;
+    }
+    .botao{
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px;
+    border-radius: 5px;
+    width: 10px;
+    margin-top: 0px;
+    }
+
+
+
+}
